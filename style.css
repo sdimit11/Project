@@ -1,0 +1,167 @@
+.bggrey{
+  background-color:rgb(179, 171, 171);
+}
+.navbar-brand{
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-left: 50px;
+}
+nav ul li a{
+  color: black;
+  font-size: 20px;
+font-weight: bold;
+
+}
+.nav-item{
+  list-style-type: none;
+
+}
+.nav-link {
+  color: black !important;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.hero-image {
+  background-image: url("img/robynne.jpg");
+  background-color: #cccccc;
+  height: 500px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.carousel-item,
+.carousel-inner,
+.carousel-inner img {
+  height: 450px;
+  width: auto;
+  margin-bottom: 10px;
+}
+
+.carousel-item {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 30px;
+}
+.carousel-item h5{
+text-transform: uppercase;
+font-weight: 900;
+}
+.card img{
+ 
+  height: 293px;
+  width: 350px
+ }
+ .card-body{
+ width: 320px;
+ padding-right: 25px;
+ 
+ }
+ section img{
+height: 250px;
+width: 400px;
+margin-left: 50px;
+padding-bottom: 20px;
+padding-top: 20px;
+ }
+ .newsletter {
+  padding: 40px 0;
+  background: #f2f2f2;
+  }
+  
+  .newsletter .content {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  z-index: 2; }
+  .newsletter .content h6 {
+  color: #243c4f;
+  margin-bottom: 40px; }
+  .newsletter .content .form-control {
+  height: 38px;
+  border-color: #ffffff;
+  border-radius:0;
+  }
+  .newsletter .content.form-control:focus {
+  box-shadow: none;
+  border: 2px solid #243c4f;
+  }
+  .newsletter .content .btn {
+  min-height: 5px; 
+  border-radius:0;
+  background: #243c4f;
+  color: #fff;
+  font-weight:400;
+  }
+  .contact{
+   text-align: center;
+   background-color:grey;
+   font-weight: bold;
+   
+  
+ }
+ .contact h1{
+   text-align: center;
+   color:black;
+ }
+ .contact p{
+   color: black;
+ }
+ .contact-form{
+  background: rgb(199, 193, 193);
+  margin-top: 20px;
+  margin-bottom: 10px;
+  width: 70%;
+}
+.contact-form .form-control{
+  border-radius:1rem;
+}
+
+.contact-form form{
+  padding-top: 20px;
+  padding-bottom: 80px ;
+}
+.contact-form form .row{
+  margin-bottom: -7%;
+}
+.contact-form h3{
+  margin-bottom: 25px;
+  margin-top: 10px;
+  text-align: center;
+  color: #121314;
+}
+.contact-form .btnContact {
+  width: 50%;
+  border: none;
+  border-radius: 1rem;
+  padding: 1.5%;
+  background: #312f30;
+  font-weight: 600;
+  color: #fff;
+  cursor: pointer;
+}
+.btnContactSubmit
+{
+  width: 50%;
+  border-radius: 1rem;
+  padding: 1.5%;
+  color: #fff;
+  
+  border: none;
+  cursor: pointer;
+}
